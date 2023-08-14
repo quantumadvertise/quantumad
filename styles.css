@@ -60,9 +60,9 @@ nav a:hover {
 }
 
 .service {
-    flex: 1;
-    margin: 30px;
-    padding: 30px;
+    flex-basis: calc(33.33% - 40px); /* Szerokość kontenera na około 1/3 szerokości dostępnego miejsca */
+    margin: 20px;
+    padding: 20px;
     background-color: #205339;
     text-align: left;
 }
